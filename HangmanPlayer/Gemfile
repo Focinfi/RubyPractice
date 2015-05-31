@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+
+# Use Rake to build ruby tasks
+gem 'rake'
+
+# Use Rspec for testing
+gem 'rspec'
+
+# Use RestClient for accessing REST resources
+gem 'rest-client'
+
+# Use Settingslogic for configration
+gem 'settingslogic'

@@ -1,0 +1,9 @@
+require_relative './lib/process_support.rb'
+
+include ProcessSupport
+
+desc "Make a words file"
+task :make_words_file do
+  make_words_from
+end
+

@@ -1,0 +1,10 @@
+player_id: 'your_email@example.com'
+base_url: 'https://your.server.domain'
+actions:  "{
+            \"start_game\":\"startGame\",
+            \"next_word\":\"nextWord\",
+            \"guess_word\":\"guessWord\",
+            \"get_result\":\"getResult\",
+            \"submit_result\":\"submitResult\"
+          }"
+log_file_path: <%= "#{ __dir__.split('/')[0...-1].join('/') }/log/hangman_player.log" %>
