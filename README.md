@@ -1,1 +1,1 @@
-This project records my practices of the ruby. 
+This project records my practices of the ruby.
