@@ -32,3 +32,14 @@ Class Duck has many subclasses whose have different behavior in `fly()` and `pqu
 3. A subject can notify its observers by call their update method.
 4. A observer can register one or more subject.
 5. A observer should handle the notification to update its data showing in views.
+
+###3.Decorate Pattern
+
+####Problem description
+
+1. A Beverage class has too many subclasses.
+2. These subclass has only simple relationship of combination.
+
+###Soultion
+
+Decorate Beverage subclass by other subclasses.
