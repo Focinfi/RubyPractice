@@ -16,3 +16,19 @@ Class Duck has many subclasses whose have different behavior in `fly()` and `pqu
 
 2. Delegate the behaviour to specific class to keep class Duck stable.
 
+####2.Observer Pattern
+
+#####Problem description
+
+1. Subject has many observer and some observer may be leave.
+2. A subject should notify its observers.
+3. Observer should update data on its view when the data is changed.
+4. This system should has good expansibility.
+
+####Soultion
+
+1. Use Subject/Observer design pattern.
+2. A subject can receive and remove observers and store them in a list.
+3. A subject can notify its observers by call their update method.
+4. A observer can register one or more subject.
+5. A observer should handle the notification to update its data showing in views.
