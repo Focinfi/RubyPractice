@@ -4,21 +4,21 @@
 
 When I reading *Head First Design Patter*, I wonder that how to rewrite the project in this book in ruby.
 
-####1.Strategy Pattern
+###1.Strategy Pattern
 
-#####Problem description
+####Problem description
 
 Class Duck has many subclasses whose have different behavior in `fly()` and `pquack()`, the simple inheritance makes many repeat code.
 
-#####Soultion
+####Soultion
 
 1. Collect the behavior things from class Duck to reduce repeat code.
 
 2. Delegate the behaviour to specific class to keep class Duck stable.
 
-####2.Observer Pattern
+###2.Observer Pattern
 
-#####Problem description
+####Problem description
 
 1. Subject has many observer and some observer may be leave.
 2. A subject should notify its observers.
@@ -42,7 +42,7 @@ Class Duck has many subclasses whose have different behavior in `fly()` and `pqu
 
 ###Soultion
 
-Decorate Beverage subclass by other subclasses.
+Decorate Beverage subclass with other subclasses.
 
 ###4.Factory Pattern
 
