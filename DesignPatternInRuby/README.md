@@ -43,3 +43,14 @@ Class Duck has many subclasses whose have different behavior in `fly()` and `pqu
 ###Soultion
 
 Decorate Beverage subclass by other subclasses.
+
+###4.Factory Pattern
+
+####Problem description
+
+A PizzaStore has many kinds of Pizza, so there has big chunk of elsif.
+
+####Soultion
+
+Delegate the Pizza instruction to the a Pizza Factory.
+

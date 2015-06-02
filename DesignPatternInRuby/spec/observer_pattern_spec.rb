@@ -1,5 +1,4 @@
 require 'observer_pattern'
-require 'pattern_helper'
 
 RSpec.describe 'ObserverPattern' do
   describe Observer do
