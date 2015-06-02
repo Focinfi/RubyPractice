@@ -54,3 +54,15 @@ A PizzaStore has many kinds of Pizza, so there has big chunk of elsif.
 
 Delegate the Pizza instruction to the a Pizza Factory.
 
+
+###4.Singleton Pattern
+
+####Problem description
+
+Let a Class has a singleton instance and can not user `MyClass.new`.
+
+####Soultion
+
+Change `MyClass`'s singleton new method as private and call it with in `MyClass`.
+
+
