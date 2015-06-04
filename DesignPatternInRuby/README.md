@@ -2,7 +2,7 @@
 
 ####Instroduction
 
-When I reading *Head First Design Patter*, I wonder that how to rewrite the project in this book in ruby.
+When I reading *Head First Design Pattern*, I wonder that how to rewrite the project in this book in ruby.
 
 ###1.Strategy Pattern
 
