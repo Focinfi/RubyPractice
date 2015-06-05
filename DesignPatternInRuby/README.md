@@ -86,3 +86,13 @@ When a caller's calling methods was not fit in a implementer's interface, they c
 ####Soultion
 
 Build a adaptor join caller and implementer.
+
+###7.Adapter Pattern
+
+####Problem description
+
+They Coffee and Tea has the same steps to make. There has many repeat codes.
+
+####Soultion
+
+Extract steps to a Class to package.
