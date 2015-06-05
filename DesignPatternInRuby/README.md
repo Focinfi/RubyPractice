@@ -76,3 +76,13 @@ Controller knows to much details about the comands.
 
 Package commands in controllers. Simplely call the commands' execute and undo methods.
 
+
+###6.Adapter Pattern
+
+####Problem description
+
+When a caller's calling methods was not fit in a implementer's interface, they can not work together.
+
+####Soultion
+
+Build a adaptor join caller and implementer.
