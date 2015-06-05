@@ -1,4 +1,4 @@
-###Design pattern in ruby
+##Design pattern in ruby
 
 ####Instroduction
 
@@ -65,4 +65,14 @@ Let a Class has a singleton instance and can not user `MyClass.new`.
 
 Change `MyClass`'s singleton new method as private and call it with in `MyClass`.
 
+
+###5.Command Pattern
+
+####Problem description
+
+Controller knows to much details about the comands.
+
+####Soultion
+
+Package commands in controllers. Simplely call the commands' execute and undo methods.
 
