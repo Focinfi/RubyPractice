@@ -71,7 +71,7 @@ This project is for playing the Hangman Game from a server through a RESTful API
     2. If got any exception, has an selection to Retry or to Exit.
     3. If drop out in a game, record player's information for resuming in next time.
 
-4. ####Todo
+####Todo
     Cause time is limited, there are many things can do to prefect this project.
   	1. To get a higer score Use a bigger dictionary and optimize word_analyzer's algorithm.
   	2. Use Redis and MongoDB for data' CURD to improve performance.
