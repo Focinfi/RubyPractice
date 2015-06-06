@@ -21,6 +21,7 @@ module WorkerAdaptor
 end
 
 class NewCalculator
+
   def add_calculate
     (1..50).to_a.inject(0) { |result, i| result = add result, i }
   end
