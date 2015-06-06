@@ -42,7 +42,7 @@ This project is for playing the Hangman Game from a server through a RESTful API
         2. `game_status.tmp` contains the last player's last game sesssion id if the player droped out in.
     8. `./data` directory contains words' txt and json file.
 
-1. #####With TDD, I got more fun in coding.
+1. #####With BDD, I got more fun in coding.
 
     0. I try block-based design for HangmanPlayer to let my code more easily to test.
     1. Ensure HangmanPlayer's code quality.
