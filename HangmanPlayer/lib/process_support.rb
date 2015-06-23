@@ -82,7 +82,7 @@ module ProcessSupport
   end
 
   def make_regexp s
-    Regexp.new s.gsub("*", ".")
+    Regexp.new s.tr("*", ".")
   end
 
   def read_from file_path
