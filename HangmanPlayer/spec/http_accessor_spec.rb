@@ -22,9 +22,12 @@ RSpec.describe HttpAccessor do
     context "Http accessor utils" do
 
       it "produce valid json" do
-        expect(@http_accessor.json_for(action: @http_accessor.actions["start_game"],
-                                       playerId: @http_accessor.player_id)).to(
-                               eq ("{\"action\":\"startGame\",\"playerId\":\"#{@http_accessor.player_id}\"}"))
+        request_opt_hash = { action:   @http_accessor.actions["start_game"],
+                             playerId: @http_accessor.player_id }
+
+        request_opt_string = "{\"action\":\"startGame\",\"playerId\":\"#{@http_accessor.player_id}\"}"
+
+        expect(@http_accessor.json_for request_opt_hash).to eq request_opt_string
       end
 
       it "get a seesion id from server" do

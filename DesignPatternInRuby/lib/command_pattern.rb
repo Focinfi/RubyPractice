@@ -1,5 +1,5 @@
 class Device
-  attr_reader :state
+  attr_accessor :state
 
   def initialize
     @state = 'closed'

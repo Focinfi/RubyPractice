@@ -71,7 +71,7 @@ RSpec.describe 'Decorate Pattern' do
           expect(@beverage.order_description).to eq "Espresso Coffee with Sugar Milk."
         end
 
-        it "should cost 35" do
+        it "cost 35" do
           expect(@beverage.cost).to eq 25.0
         end
       end

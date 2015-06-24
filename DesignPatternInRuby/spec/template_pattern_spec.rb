@@ -27,6 +27,5 @@ RSpec.describe 'Template Pattern' do
     it "has four steps to make Coffeine" do
       test_coffeine_steps @coffeine_beverage
     end
-
   end
 end
