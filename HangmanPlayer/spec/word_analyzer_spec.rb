@@ -25,7 +25,7 @@ RSpec.describe WordAnalyzer do
         expect(@word_analyzer.words_char_list).not_to be_nil
       end
 
-      it "should select a most possible charactor" do
+      it "select a most possible charactor" do
         last_char = @word_analyzer.words_char_list.last
         expect(@word_analyzer.guess_a_char).to eq last_char
       end
