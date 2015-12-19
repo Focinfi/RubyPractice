@@ -1,0 +1,6 @@
+source 'https://ruby.taobao.org'
+
+gem 'sinatra'
+gem 'dnsruby'
+gem 'haml'
+gem 'json'

@@ -1,0 +1,53 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Dns Hunter
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
+    / Bootstrap
+    %link{:href => "/vendor/bootstrap/css/bootstrap.min.css", :rel => "stylesheet"}/
+    / HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    / WARNING: Respond.js doesn't work if you view the page via file://
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    :css
+      .alert {
+        position: fixed;
+        top: 75px;
+        left: 27%;
+        width: 30%;
+        padding: 5px 5px;
+      }
+    / jQuery (necessary for Bootstrap's JavaScript plugins)
+    %script{:src => "/vendor/jquery-1.9.1.min.js"}
+  %body
+    .container
+      / Static navbar
+      %nav.navbar.navbar-default{:role => "navigation"}
+        .navbar-header
+          %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.navbar-brand{:href => "/home"} Dns Hunter
+        .navbar-collapse.collapse
+          %ul.nav.navbar-nav
+            / <li><a href="/secure/place">Secret</a></li>
+          %ul.nav.navbar-nav.navbar-right
+            %li.dropdown
+              %a.dropdown-toggle{"data-toggle" => "dropdown", :href => "#"}
+                Man
+                %b.caret
+              %ul.dropdown-menu
+                %li
+                  %a{:href => "/login/form"} Login
+                %li.divider
+                %li
+                  %a{:href => "/logout"} Logout
+        / /.nav-collapse
+      %div
+        = yield
+    / Include all compiled plugins (below), or include individual files as needed
+    %script{:src => "/vendor/bootstrap/js/bootstrap.min.js"}

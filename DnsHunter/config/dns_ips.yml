@@ -1,0 +1,10 @@
+DNS_IPS:
+  - 
+    location: Shenzhen
+    ip: 119.29.29.29
+  -
+    location: China Beijing     
+    ip: 159.226.163.130
+  -
+    location: China Guangzhou   
+    ip: 116.6.116.3  
