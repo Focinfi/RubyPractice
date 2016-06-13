@@ -4,7 +4,7 @@ RSpec.describe ProcessSupport do
   include ProcessSupport
 
   describe "Support Utils" do
-    context "String Extention" do
+    context "String Extension" do
       it "wrap a string with '()' " do
         expect("hello".wrap_with '()').to eq "(hello)"
       end

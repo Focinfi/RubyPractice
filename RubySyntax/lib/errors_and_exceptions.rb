@@ -1,4 +1,4 @@
-class Caculater
+class Calculator
   def divide(a, b)
     err = nil 
     begin
@@ -13,7 +13,7 @@ end
 a = 1
 b = 0
 
-res, err = Caculater.new.divide(a, b)
+res, err = Calculator.new.divide(a, b)
 
 if err != nil
   puts "Error: #{err.message}"
