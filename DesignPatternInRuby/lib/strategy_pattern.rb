@@ -42,7 +42,7 @@ class Duck
   end
 
   def swim
-    "I am #{name} and I am swiming."
+    "I am #{name} and I am swimming."
   end
 
   def display

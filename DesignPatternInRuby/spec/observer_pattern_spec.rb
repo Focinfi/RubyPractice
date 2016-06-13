@@ -76,7 +76,7 @@ RSpec.describe 'ObserverPattern' do
         }.to change(news_reader, :version).by(1)
       end
 
-      it "display infomation" do
+      it "display information" do
         expect(news_reader.display).to eq "Latest data, update time is #{news_reader.updated_at}"
       end
     end

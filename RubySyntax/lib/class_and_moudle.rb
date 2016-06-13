@@ -1,4 +1,4 @@
-module Caculater
+module Calculator
   def add(n)
     logger.info("adding...")
     logger.info("logger_id: #{logger.object_id}")
@@ -28,7 +28,7 @@ end
 
 class Papers
   include Log
-  include Caculater
+  include Calculator
   extend Introductioin
 
   def self.description
@@ -70,7 +70,7 @@ book.add(1)
 note.add(10).add(2)
 note.writing
 
-# include Caculater, every instance has its own states(instance variables)
+# include Calculator, every instance has its own states(instance variables)
 puts book, note
 
 # extend Introductioin, every Class object has these class methods

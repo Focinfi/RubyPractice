@@ -27274,7 +27274,7 @@ v.繁殖,传播,宣传
 propagation
 n.动植物,繁殖,(声波,电磁辐射等)传播
 
-prophesy
+prophecy
 v.预言,预报
 
 prophet

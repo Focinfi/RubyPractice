@@ -21,7 +21,7 @@ RSpec.describe WordAnalyzer do
         expect(@word_analyzer.filtered_words_set.map{ |word| word[0] }.uniq.join).to eq "A"
       end
 
-      it "has a most possible charactors' list words_char_list" do
+      it "has a most possible characters' list words_char_list" do
         expect(@word_analyzer.words_char_list).not_to be_nil
       end
 

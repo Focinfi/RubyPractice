@@ -67,7 +67,7 @@ This project is for playing the Hangman Game from a server through a RESTful API
     3. If guess successfully, update `words_set` by matching the guessed result and reset `char_list` for the new `words_set`.
 
 3. #####Handle Exception
-    1. Log importaint infomation in log file while playing.
+    1. Log importaint information in log file while playing.
     2. If got any exception, has an selection to Retry or to Exit.
     3. If drop out in a game, record player's information for resuming in next time.
 
